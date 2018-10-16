@@ -1,0 +1,113 @@
+html {
+  font-family: "Unica One", sans-serif;
+  color: white;
+}
+
+#bg {
+  fill: #78a2b3;
+}
+
+h1 {
+  position: absolute;
+  margin: 3em 1em;
+  width: 400px;
+  z-index: 10;
+  opacity: 0;
+  animation: opacity .5s linear forwards;
+}
+
+#narwhal-body {
+  fill: #78a2b3;
+  stroke-width: 12.37px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1908px;
+  stroke-dashoffset: 1908px;
+  animation: offset 1s linear forwards;
+}
+
+#narwhal-eye {
+  opacity: 0;
+  animation: opacity 1s linear forwards;
+}
+
+#rainbow-violet {
+  stroke: #ff00e6;
+  stroke-dasharray: 1917px;
+  stroke-dashoffset: 1917px;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 12.37px;
+  fill: none;
+}
+
+#rainbow-indigo {
+  stroke: #9500ff;
+  stroke-dasharray: 1820px;
+  stroke-dashoffset: 1820px;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-blue {
+  stroke: #0040ff;
+  stroke-dasharray: 1705px;
+  stroke-dashoffset: 1705px;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-green {
+  stroke: #2bff00;
+  stroke-dasharray: 1600px;
+  stroke-dashoffset: 1596px;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-yellow {
+  stroke: #fff700;
+  stroke-dasharray: 1485px;
+  stroke-dashoffset: 1483px;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-orange {
+  stroke: #ff8000;
+  stroke-dasharray: 1370px;
+  stroke-dashoffset: 1366px;
+  animation: offset 2s linear forwards;
+}
+
+#rainbow-red {
+  stroke: red;
+  stroke-dasharray: 1245px;
+  stroke-dashoffset: 1243px;
+  animation: offset 2s linear forwards;
+}
+
+.cls-9 {
+  stroke: #fff;
+  stroke-width: 12px;
+}
+
+.cls-10 {
+  fill: #fff;
+}
+
+@keyframes offset {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes opacity {
+
+  to {
+    opacity: 100;
+  }
+
+}
